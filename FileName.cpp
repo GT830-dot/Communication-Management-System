@@ -3,11 +3,11 @@ using namespace std;
 void num(int* p, int b);
 int main() {
 	int arr[9] = { 4,5,6,1,2,3,8,9,0 };
-	cout << "ÅÅĞòÇ°£º" << endl;
+	cout << "æ’åºå‰" << endl;
 	for (int a = 0; a < 9; a++) {
 		cout << arr[a] << " ";
 	}
-	cout << "ÅÅĞòºó£º" << endl;
+	cout << "æ’åºå" << endl;
 	int c = sizeof(arr) / sizeof(arr[0]);
 	num(arr, c);
 	for (int e = 0; e < 9; e++) {
@@ -26,3 +26,4 @@ void num(int* p, int b) {
 		}
 	}
 }
+
